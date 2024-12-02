@@ -1,0 +1,111 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(45deg, #ffd993, #ffee8c);
+    color: #fff;
+    text-align: center;
+}
+
+.tituloysub{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tituloysub h1 {
+    font-size: 50px;
+}
+
+.tituloysub h4{
+    font-size: 18px;
+    color: #333;
+}
+
+.nav_imagen {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+.nav_img {
+    max-width: 85px;
+}
+
+@media screen and (max-width: 991px) {
+    .nav_imagen {
+        justify-content: center; /* Centra el logo */
+        margin-bottom: 10px;
+    }
+
+    .navbar-nav {
+        justify-content: center; 
+    }
+}
+
+.navbar-brand {
+    color: #f8f9fa;
+}
+
+.carousel_contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.carousel_contenedor img{
+    max-height: 600px;
+}
+
+h2 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    padding: 40px;
+    text-align: center;
+}
+
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s all;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 700px) {
+    section {
+        padding: 15px;
+    }
+
+    .card {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+footer {
+    background: #333;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #ffd993;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #ffd993;
+}
